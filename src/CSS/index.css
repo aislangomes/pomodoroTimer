@@ -1,0 +1,65 @@
+:root{
+  font-size: 62.5%;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;  
+}
+
+body{
+  background-color: rgb(43, 42, 69);
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  border: 0.3rem solid;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(26, 26, 36);
+  border-radius: 1rem;
+
+}
+
+h1 {
+  margin: 2rem;
+  font-size: 5rem;/intl/en/about/products
+}
+
+h2 {
+  font-size: 4rem;
+  margin: 4rem;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-bottom: 4rem;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  border: 0.2rem solid ;
+  border-radius: 0.5rem;
+  color: aliceblue;
+  background-color: transparent;
+  height: 8rem;
+  width: 15rem;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.106);
+}
+
+button:active {
+  background-color: rgba(32, 32, 32, 0.106);
+}
